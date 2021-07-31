@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.btn{
+			position: relative;
+			display: inline-block;
+			width: 75px;
+			height: 25px;
+			overflow: hidden;
+			text-align: center;
+			font-size: 14px;
+			line-height: 25px;
+			vertical-align: center;
+			border: 1px solid #23c6c8;
+			background-color: #23c6c8;
+			color:#fff;
+			border-radius: 3px;
+		}
+		.btn:hover{
+			border: 1px solid #23babc;
+			background-color: #23babc;
+		}
+		.btn input{
+			position: absolute;
+			top:0;
+			left: 0;
+			opacity: 0;
+		}
+	</style>
+</head>
+<body>
+	<header>Group Project Website</header>
+	<img alt="Doctor Image" src="{chief.png}">
+	<div class = "Nav box">
+	<ul class="nav clearfix">
+                <li><a href="/">检测</a></li>
+				<li><a href="/">结果</a></li>
+	</ul>
+	</div>
+<br>
+<br>
+	<label type="button" class="btn">
+		<span>选择图片</span>
+		<input type="file">
+	</label>
+</body>
+</html>
