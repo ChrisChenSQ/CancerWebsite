@@ -89,7 +89,7 @@ def get_respoonse(question):
     else:
         return "Sorry, I don't know the answer. Could you please change the question?"
 
-df=pd.read_excel('D:\djangoProject\diagnosis\healthy.xlsx')
+df=pd.read_excel('diagnosis\healthy.xlsx')
 df.ffill(axis = 0,inplace=True)
 df['lemmatized_text']=df['Context'].apply(text_normalization)
 Question = 'what cancer do I have'

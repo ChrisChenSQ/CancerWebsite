@@ -10,7 +10,7 @@ from diagnosis import nltk_null, nltk_lung_aca, nltk_lung_scc, nltk_colon_aca
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 # Create your views here.
-model_file = 'D:\djangoProject\model_old.h5'
+model_file = 'model.h5'
 model = keras.models.load_model(model_file)
 def initpage(request):
     contex = {}
@@ -52,7 +52,7 @@ def scalar(img):
 gen = ImageDataGenerator(preprocessing_function=scalar)
 
 def get_result(file_path):
-    a = "D:\djangoProject\media\ "
+    a = "djangoProject\media\ "
     a = a.strip()
     file_path = a + file_path
     img = tf.keras.preprocessing.image.load_img(file_path, target_size=(128, 128))

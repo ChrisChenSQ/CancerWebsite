@@ -18,9 +18,9 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 def get_result(file_path):
-    model_file = 'D:\djangoProject\model.h5'
+    model_file = 'model.h5'
     model = keras.models.load_model(model_file)
-    a = "D:\djangoProject\media\ "
+    a = "djangoProject\media\ "
     a = a.strip()
     file_path = a + file_path
     img = image.load_img(file_path, target_size=(128, 128))
