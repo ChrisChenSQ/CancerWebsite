@@ -19,8 +19,8 @@ def initpage(request):
         fs = FileSystemStorage()
         name = fs.save(upload_image.name, upload_image)
         url = fs.url(name)
-        print(upload_image.name)
-        print(upload_image.size)
+        print("image name",upload_image.name)
+        print("image size",upload_image.size)
         print(url)
         image = Image()
         image.image_name = name
@@ -33,6 +33,7 @@ def initpage(request):
 def result(request):
     image_name = Image.objects.last().image_name
     url = Image.objects.last().image_path
+    print('URL:' , url)
     result = get_result(image_name)
     final_result = "Looks like that you have a great chance of getting {}.".format(result)
     print(final_result)

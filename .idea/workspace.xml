@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6f003cd9-7bc1-4405-8e3d-d6cba47b24c9" name="Default Changelist" comment="first push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagnosis/get_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/diagnosis/get_result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagnosis/nltk_colon_aca.py" beforeDir="false" afterPath="$PROJECT_DIR$/diagnosis/nltk_colon_aca.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagnosis/nltk_lung_aca.py" beforeDir="false" afterPath="$PROJECT_DIR$/diagnosis/nltk_lung_aca.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagnosis/nltk_lung_scc.py" beforeDir="false" afterPath="$PROJECT_DIR$/diagnosis/nltk_lung_scc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diagnosis/nltk_null.py" beforeDir="false" afterPath="$PROJECT_DIR$/diagnosis/nltk_null.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diagnosis/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/diagnosis/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +42,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/CSQ/CancerWebsite"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/22792/Desktop/CancerWebsite&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
@@ -236,6 +231,8 @@
       <workItem from="1627536382279" duration="1241000" />
       <workItem from="1627537640263" duration="1249000" />
       <workItem from="1667232986490" duration="1261000" />
+      <workItem from="1670813990163" duration="309000" />
+      <workItem from="1670815774549" duration="674000" />
     </task>
     <task id="LOCAL-00001" summary="aaaa">
       <created>1627528658683</created>
@@ -288,13 +285,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="first push" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/djangoProject$manage.coverage" NAME="manage Coverage Results" MODIFIED="1625137298209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1625841071297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Documents/WeChat Files/wxid_99lype9so7no22/FileStorage/File/2021-07" />
+    <SUITE FILE_PATH="coverage/djangoProject$main.coverage" NAME="main Coverage Results" MODIFIED="1625812253379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/djangoProject$group_1_final__1_.coverage" NAME="group_1_final (1) Coverage Results" MODIFIED="1625730979378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Downloads" />
-    <SUITE FILE_PATH="coverage/djangoProject$group_1_final.coverage" NAME="group_1_final Coverage Results" MODIFIED="1625309790953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lung_colon_image_set" />
     <SUITE FILE_PATH="coverage/djangoProject$group1_presentation3.coverage" NAME="group1_presentation3 Coverage Results" MODIFIED="1625309645532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Downloads" />
     <SUITE FILE_PATH="coverage/djangoProject$views.coverage" NAME="views Coverage Results" MODIFIED="1625813142309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/diagnosis" />
     <SUITE FILE_PATH="coverage/djangoProject$get_result.coverage" NAME="get_result Coverage Results" MODIFIED="1625812838610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/diagnosis" />
-    <SUITE FILE_PATH="coverage/djangoProject$manage.coverage" NAME="manage Coverage Results" MODIFIED="1625137298209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/djangoProject$main.coverage" NAME="main Coverage Results" MODIFIED="1625812253379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/djangoProject$group_1_final.coverage" NAME="group_1_final Coverage Results" MODIFIED="1625309790953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lung_colon_image_set" />
   </component>
 </project>
