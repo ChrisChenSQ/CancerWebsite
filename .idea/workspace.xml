@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f003cd9-7bc1-4405-8e3d-d6cba47b24c9" name="Default Changelist" comment="first push">
+    <list default="true" id="6f003cd9-7bc1-4405-8e3d-d6cba47b24c9" name="Default Changelist" comment="solve problems caused by version update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diagnosis/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/diagnosis/views.py" afterDir="false" />
@@ -232,7 +232,7 @@
       <workItem from="1627537640263" duration="1249000" />
       <workItem from="1667232986490" duration="1261000" />
       <workItem from="1670813990163" duration="309000" />
-      <workItem from="1670815774549" duration="674000" />
+      <workItem from="1670815774549" duration="2856000" />
     </task>
     <task id="LOCAL-00001" summary="aaaa">
       <created>1627528658683</created>
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627538122243</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="solve problems caused by version update">
+      <created>1670818745316</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670818745316</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +289,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aaaa" />
     <MESSAGE value="first push" />
-    <option name="LAST_COMMIT_MESSAGE" value="first push" />
+    <MESSAGE value="solve problems caused by version update" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve problems caused by version update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/djangoProject$manage.coverage" NAME="manage Coverage Results" MODIFIED="1625137298209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

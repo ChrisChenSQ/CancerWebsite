@@ -8,6 +8,8 @@ from tensorflow import keras
 from tensorflow.keras.preprocessing import image
 from diagnosis import nltk_null, nltk_lung_aca, nltk_lung_scc, nltk_colon_aca
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from keras.preprocessing import image
+from keras.applications import *
 
 # Create your views here.
 model_file = 'model.h5'
@@ -53,14 +55,17 @@ def scalar(img):
 gen = ImageDataGenerator(preprocessing_function=scalar)
 
 def get_result(file_path):
-    a = "djangoProject\media\ "
+    a = "media/ "
     a = a.strip()
     file_path = a + file_path
     img = tf.keras.preprocessing.image.load_img(file_path, target_size=(128, 128))
-    img = gen.flow(np.expand_dims(img, axis=0))
+    img = tf.keras.utils.img_to_array(img)
+    img = np.expand_dims(img, axis=0)
 
     predictions = model.predict(img)
     pred_id = np.argmax(predictions)
+
+    print("The result for prediction is {}".format(pred_id))
 
     cancer_type = ["Colon adenocarcinoma", "colon_n", "Lung adenocarcinoma", "lung_n",
                    "Lung squamous cell carcinoma"]
